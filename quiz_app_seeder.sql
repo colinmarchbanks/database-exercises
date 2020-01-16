@@ -103,7 +103,7 @@ insert into answer_question (answer_id,question_id) values (1,1);
 insert into answer_question (answer_id,question_id) values (2,1);
 
 insert into questions (question, quiz_id) values ('Who is the best math teacher??', 1);
-insert into answer_question (answer_id,question_id) values (1,2);
+insert into answer_question (answer_id,question_id) values (1,2)
 insert into answer_question (answer_id,question_id) values (3,2);
 insert into answer_question (answer_id,question_id) values (4,2);
 insert into answer_question (answer_id,question_id) values (5,2);

@@ -21,7 +21,7 @@ FROM ad_category as ac
          JOIN categories as c on ac.category_id = c.id
 WHERE category_id = 5;
 
-# Queries the ads for the user with the usermame of 'aquoit4'
+# Queries the ads for the user with the usermame of 'aquoit4
 SELECT title AS 'Ad', username as 'User'
 FROM ads as a
          JOIN users u on a.user_id = u.id
